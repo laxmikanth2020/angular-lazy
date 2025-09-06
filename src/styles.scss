@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+.container {
+    margin : 30px !important;
+    background-color : #dddddd;
+
+    h2 {
+        color : red;
+    }
+
+    p {
+        font-size:larger;
+    }
+}
+

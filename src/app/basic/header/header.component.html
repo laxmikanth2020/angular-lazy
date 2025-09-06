@@ -1,0 +1,6 @@
+<div class="header">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle *ngFor="let topic of topicsData" [routerLink]=topic.route [routerLinkActive]="['active']"
+            value="topic.name">{{ topic.name }}</mat-button-toggle>
+    </mat-button-toggle-group>
+</div>
