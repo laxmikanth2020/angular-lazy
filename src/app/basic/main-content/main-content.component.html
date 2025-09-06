@@ -1,0 +1,9 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+        <h2>{{ topicTitle + ' Tutorial' }}</h2>
+        <a *ngFor="let topic of subtopics" [routerLink]=topic.route [routerLinkActive]="['active']">{{ topic.name }}</a>
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

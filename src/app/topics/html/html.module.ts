@@ -7,19 +7,13 @@ import { HtmlElementsComponent } from './components/html-elements/html-elements.
 import { HtmlAttributesComponent } from './components/html-attributes/html-attributes.component';
 import { HtmlHeadingsComponent } from './components/html-headings/html-headings.component';
 
-
-
 @NgModule({
   declarations: [
     HtmlHomepageComponent,
     HtmlElementsComponent,
     HtmlAttributesComponent,
-    HtmlHeadingsComponent
+    HtmlHeadingsComponent,
   ],
-  imports: [
-    CommonModule,
-    HtmlRoutingModule
-  ],
-  exports : [HtmlHomepageComponent]
+  imports: [CommonModule, HtmlRoutingModule],
 })
-export class HtmlModule { }
+export class HtmlModule {}
