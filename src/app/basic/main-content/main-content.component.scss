@@ -1,0 +1,47 @@
+.example-container {
+    width: 100% !important;
+    height: 80vh !important;
+    margin: 10px;
+    border: 1px solid #555;
+}
+
+a {
+    display : block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+mat-drawer {
+     width : 350px !important;
+     background-color: #E7E9EB;
+     overflow-y: scroll;
+
+     h2, a {
+        text-align: center;
+     }
+     a {
+        padding : 3px !important;
+        color : black;
+            font-family: "Segoe UI", Arial, sans-serif;
+                font-size: 15px;
+     }
+
+         a:hover {
+             background-color: #cccccc;
+             color: black;
+         }
+                 a.active:hover {
+                     background-color: #059862;
+                     color: white !important;
+                 }
+
+}
+
+.active {
+    background-color: #059862;
+        color: white !important;
+}
+
+
+
+

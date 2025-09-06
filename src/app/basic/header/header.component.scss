@@ -20,7 +20,13 @@ mat-button-toggle:hover {
     background-color: black;
     color : #ffffff;
 }
-.mat-button-toggle-appearance-standard.mat-button-toggle-checked  {
+
+.mat-button-toggle-appearance-standard.mat-button-toggle-checked, .active {
     background-color: #04AA6D;
     color : #ffffff;
+}
+
+mat-button-toggle.active:hover {
+    background-color: #04AA6D;
+        color: #ffffff;
 }
